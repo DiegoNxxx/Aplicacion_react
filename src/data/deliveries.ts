@@ -1,0 +1,163 @@
+import { Delivery } from '../types';
+
+export const entregas: Delivery[] = [
+  {
+    id: 'ent-001',
+    titulo: 'Entrega Guadalajara',
+    estado: 'activo',
+    fecha: '2025-09-17',
+    ubicacion: 'Jalisco - Guadalajara',
+    camion: 'Camión 12',
+    participantes: ['par-001', 'par-002', 'par-003'],
+    registros: [
+      {
+        id: 'reg-001',
+        productoId: 'prod-001',
+        productoNombre: 'Arroz',
+        voluntarioNombre: 'Voluntario Demo',
+        fechaHora: '2025-09-17 09:10',
+      },
+      {
+        id: 'reg-002',
+        productoId: 'prod-008',
+        productoNombre: 'Atún',
+        voluntarioNombre: 'Luis Gómez',
+        fechaHora: '2025-09-17 09:20',
+      },
+      {
+        id: 'reg-003',
+        productoId: 'prod-004',
+        productoNombre: 'Leche',
+        voluntarioNombre: 'Ana Pérez',
+        fechaHora: '2025-09-17 09:35',
+      },
+    ],
+  },
+  {
+    id: 'ent-002',
+    titulo: 'Entrega Zapopan',
+    estado: 'activo',
+    fecha: '2025-09-18',
+    ubicacion: 'Jalisco - Zapopan',
+    camion: 'Camión 7',
+    participantes: ['par-004'],
+    registros: [
+      {
+        id: 'reg-004',
+        productoId: 'prod-002',
+        productoNombre: 'Frijoles',
+        voluntarioNombre: 'María Ruiz',
+        fechaHora: '2025-09-18 10:15',
+      },
+      {
+        id: 'reg-005',
+        productoId: 'prod-009',
+        productoNombre: 'Pasta',
+        voluntarioNombre: 'Voluntario Demo',
+        fechaHora: '2025-09-18 10:25',
+      },
+    ],
+  },
+  {
+    id: 'ent-003',
+    titulo: 'Entrega San Pedro Tlaquepaque',
+    estado: 'activo',
+    fecha: '2025-09-19',
+    ubicacion: 'Jalisco - San Pedro Tlaquepaque',
+    camion: 'Camión 3',
+    participantes: ['par-002', 'par-005'],
+    registros: [
+      {
+        id: 'reg-006',
+        productoId: 'prod-013',
+        productoNombre: 'Pan',
+        voluntarioNombre: 'Sofía López',
+        fechaHora: '2025-09-19 08:50',
+      },
+      {
+        id: 'reg-007',
+        productoId: 'prod-015',
+        productoNombre: 'Verduras',
+        voluntarioNombre: 'Voluntario Demo',
+        fechaHora: '2025-09-19 09:05',
+      },
+    ],
+  },
+  {
+    id: 'ent-004',
+    titulo: 'Entrega Tonalá',
+    estado: 'pasado',
+    fecha: '2025-09-10',
+    ubicacion: 'Jalisco - Tonalá',
+    camion: 'Camión 5',
+    participantes: ['par-006'],
+    registros: [
+      {
+        id: 'reg-008',
+        productoId: 'prod-006',
+        productoNombre: 'Harina',
+        voluntarioNombre: 'Carlos Díaz',
+        fechaHora: '2025-09-10 11:00',
+      },
+      {
+        id: 'reg-009',
+        productoId: 'prod-007',
+        productoNombre: 'Sal',
+        voluntarioNombre: 'Voluntario Demo',
+        fechaHora: '2025-09-10 11:12',
+      },
+    ],
+  },
+  {
+    id: 'ent-005',
+    titulo: 'Entrega Puerto Vallarta',
+    estado: 'pasado',
+    fecha: '2025-09-08',
+    ubicacion: 'Jalisco - Puerto Vallarta',
+    camion: 'Camión 2',
+    participantes: ['par-003', 'par-004'],
+    registros: [
+      {
+        id: 'reg-010',
+        productoId: 'prod-010',
+        productoNombre: 'Cereal',
+        voluntarioNombre: 'Voluntario Demo',
+        fechaHora: '2025-09-08 14:30',
+      },
+      {
+        id: 'reg-011',
+        productoId: 'prod-012',
+        productoNombre: 'Agua',
+        voluntarioNombre: 'Elena Torres',
+        fechaHora: '2025-09-08 14:45',
+      },
+    ],
+  },
+  {
+    id: 'ent-006',
+    titulo: 'Entrega Tepatitlán de Morelos',
+    estado: 'pasado',
+    fecha: '2025-09-05',
+    ubicacion: 'Jalisco - Tepatitlán de Morelos',
+    camion: 'Camión 1',
+    participantes: ['par-001'],
+    registros: [
+      {
+        id: 'reg-012',
+        productoId: 'prod-017',
+        productoNombre: 'Huevos',
+        voluntarioNombre: 'Voluntario Demo',
+        fechaHora: '2025-09-05 09:00',
+      },
+      {
+        id: 'reg-013',
+        productoId: 'prod-011',
+        productoNombre: 'Jugo',
+        voluntarioNombre: 'Marcos León',
+        fechaHora: '2025-09-05 09:15',
+      },
+    ],
+  },
+];
+
+
