@@ -1,13 +1,22 @@
 export const theme = {
   colors: {
     // Pastel & vivid oranges with off-white surfaces
+<<<<<<< HEAD
     primary: '#F4A261',
     primaryDark: '#E76F51',
+=======
+    primary: 'orange',
+    primaryDark: '#006e4dff',
+>>>>>>> 14ffc85ee117fe833b0291730a2723e381494113
     primaryLight: '#F4A26120',
     background: '#FFFFFF',
     surface: '#FFF7F0',
     surfaceLight: '#FFEAD6',
+<<<<<<< HEAD
     text: '#1F2937',
+=======
+    text: '#000000ff',
+>>>>>>> 14ffc85ee117fe833b0291730a2723e381494113
     textSecondary: '#6B7280',
     textLight: '#9CA3AF',
     border: '#F3D8BF',

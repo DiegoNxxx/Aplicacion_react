@@ -13,7 +13,13 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+<<<<<<< HEAD
       "supportsTablet": true
+=======
+      "supportsTablet": true,
+      "bundleIdentifier": "com.foodbank.app", 
+      "googleServicesFile": "./GoogleService-Info.plist"
+>>>>>>> 14ffc85ee117fe833b0291730a2723e381494113
     },
     "android": {
       "adaptiveIcon": {
@@ -21,7 +27,13 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
+<<<<<<< HEAD
       "predictiveBackGestureEnabled": false
+=======
+      "predictiveBackGestureEnabled": false,
+      "package": "com.foodbank.app", 
+      "googleServicesFile": "./google-services.json"
+>>>>>>> 14ffc85ee117fe833b0291730a2723e381494113
     },
     "web": {
       "favicon": "./assets/favicon.png"

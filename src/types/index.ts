@@ -5,6 +5,11 @@ export type DeliveryStatus = 'activo' | 'pasado';
 export interface Participant {
   id: string;
   nombre: string;
+<<<<<<< HEAD
+=======
+  clave?: string;
+  lastLogin?: string;
+>>>>>>> 14ffc85ee117fe833b0291730a2723e381494113
 }
 
 export interface Product {
